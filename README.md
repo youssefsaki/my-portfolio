@@ -21,6 +21,10 @@ My Portfolio is a personal website showcasing my projects, skills, and experienc
 - Sections for showcasing projects, skills, and contact information
 - Interactive elements to engage visitors, such as project galleries and contact forms
 
+## Demo 
+
+You can try it out by visiting the live demo <a href='https://youssefsaki.vercel.app'>here</a>
+
 ## Technologies Used
 
 - Next.js
@@ -55,8 +59,3 @@ My Portfolio is a personal website showcasing my projects, skills, and experienc
 
  - Open your browser and navigate to http://localhost:3000 to view the website.
 
-## Deployment 
-
-- The portfolio website is deployed on Vercel.
-
-<a href='https://youssefsaki.vercel.app'>here</a>
