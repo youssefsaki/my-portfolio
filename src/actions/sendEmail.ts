@@ -21,18 +21,11 @@ const getErrorMessage = (error: unknown) => {
     return message;
 }
 
-export const sendEmail = async (formData: FormData) => {
+export const sendEmail = async (formData: { email: string, message: string}) => {
 
-    const senderEmail = formData.get('email');
-    const message = formData.get('message');
+    const { email, message } = formData;
 
-    if(!senderEmail || typeof senderEmail !== 'string') {
-        return {
-            error: 'Invalid Email'
-        }
-    }
-
-    if(!message || typeof message !== 'string') {
+    if(!message || !email) {
         return {
             error: 'Invalid Message'
         }
@@ -46,10 +39,10 @@ export const sendEmail = async (formData: FormData) => {
             subject: 'Message from Contact form in portfolio',
             to: 'youssefsaki@protonmail.com',
             // text: message,
-            reply_to: senderEmail,
+            reply_to: email,
             react: React.createElement(EmailContactForm, {
                 message: message as string,
-                senderEmail: senderEmail as string
+                senderEmail: email as string
             })
         })
     }catch(error) {
