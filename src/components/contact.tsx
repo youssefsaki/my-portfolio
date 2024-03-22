@@ -60,7 +60,7 @@ export const Contact = () => {
                 once: true
             }}>
             <SectionHeading>Contact Me</SectionHeading>
-            <p className='text-gray-700 -mt-6 dark:text-white/80 max-sm:text-center'>
+            <p className='text-gray-700 -mt-6 dark:text-white/80 text-[0.9em] sm:text-lg max-sm:text-center'>
                 Please contact me at {' '}
                 <a href='mailto:youssefsaki@protonmail.com' className='underline text-blue-500'>
                     <span>youssefsaki@protonmail.com</span>
@@ -68,9 +68,9 @@ export const Contact = () => {
                 {' '} or through this form.
             </p>
 
-            <form className='mt-10 flex flex-col' onSubmit={handleSubmit}>
+            <form className='sm:mt-10 mt-6 flex flex-col' onSubmit={handleSubmit}>
                 <input
-                    className='h-14 px-4 rounded-lg border border-black/10 dark:text-gray-50 dark:outline-none
+                    className='sm:h-14 h-12 px-4 max-sm:text-sm rounded-lg border border-black/10 dark:text-gray-50 dark:outline-none
                     dark:bg-gray-900 dark:border-white/20'
                     type='email'
                     placeholder='Enter Your Email'
@@ -82,7 +82,7 @@ export const Contact = () => {
                 <textarea
                     placeholder='Your Message'
                     className='h-52 my-3 rounded-lg border border-black/10 p-4 dark:text-gray-50 dark:outline-none
-                    dark:bg-gray-900 dark:border-white/20'
+                    dark:bg-gray-900 dark:border-white/20 max-sm:text-sm'
                     required
                     name='message'
                     value={dataInput.message}

@@ -7,8 +7,9 @@ export const SubmitButton = ({ isLoading }: { isLoading: boolean}) => {
         <div>
             <button 
                 type='submit'
-                className='flex justify-center items-center gap-2 h-[3rem] w-[8rem] bg-gray-900 text-white 
-                            rounded-full outline-none transition-all hover:scale-110 focus:scale-105 dark:bg-gray-800'
+                className='flex justify-center items-center gap-2 sm:h-[3rem] h-[2.5rem] max-sm:w-[7rem] w-[8rem] bg-gray-900 text-white 
+                            rounded-full outline-none transition-all hover:scale-110 focus:scale-105 dark:bg-gray-800
+                            max-sm:text-sm'
                 disabled={isLoading}   
             >
                 {isLoading ? (
