@@ -57,6 +57,6 @@ My Portfolio is a personal website showcasing my projects, skills, and experienc
 
 ## Deployment 
 
-    - The portfolio website is deployed on Vercel.
+- The portfolio website is deployed on Vercel.
 
-    <a href='https://youssefsaki.vercel.app'>here</a>
+<a href='https://youssefsaki.vercel.app'>here</a>
