@@ -41,7 +41,7 @@ export const Intro = () => {
             <span className='font-medium'><span className="font-bold">Software Developer</span>{' '} && <span className="font-bold">Web Instructor.</span></span> 
             <br />
              with {''}
-            <span className="font-bold">2 years</span> of experience. I Enjoy Building {' '}
+            <span className="font-bold">3 years</span> of experience. I Enjoy Building {' '}
             <span className='italic '>sites & apps</span>. My Focus is {''}
             <span className="underline">React (Next.js)</span>.
         </motion.h1>

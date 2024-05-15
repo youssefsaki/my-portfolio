@@ -5,6 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import ecomWebApp from '/public/ecomInoxi.png';
 import vansProjectPic from '/public/Vans.png';
 import portfolio from '/public/my-portfolio.png';
+import avellina from '/public/avellina.png';
 
 
 export const links = [
@@ -63,11 +64,10 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "Portfolio",
-    description:
-      "I crafted my portfolio website, showcasing my skills and projects with a focus on user engagement and visual appeal.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind"],
-    imageUrl: portfolio,
+    title: 'E-commerce Avellina',
+    description: 'Independently developed Avellina, a WordPress cosmetics eCommerce site, handling backend development and optimization for a seamless user experience.',
+    tags: ['WordPressDevelopment', 'E-Commerce','PHP'],
+    imageUrl: avellina
   },
   {
     title: "Inoxi E-Com",
@@ -75,6 +75,13 @@ export const projectsData = [
       "I served as a full-stack developer on an e-commerce app for 1.5 months. I facilitated seamless user experiences, enabling browsing, cart management, and secure transactions.",
     tags: ["Javascript", "PHP", "Bootstrap", "MYSQL"],
     imageUrl: ecomWebApp,
+  },
+  {
+    title: "Portfolio",
+    description:
+      "I crafted my portfolio website, showcasing my skills and projects with a focus on user engagement and visual appeal.",
+    tags: ["React", "TypeScript", "Next.js", "Tailwind"],
+    imageUrl: portfolio,
   },
   {
     title: "VANS Work",
