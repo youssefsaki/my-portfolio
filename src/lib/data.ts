@@ -67,14 +67,16 @@ export const projectsData = [
     title: 'E-commerce Avellina',
     description: 'Independently developed Avellina, a WordPress cosmetics eCommerce site, handling backend development and optimization for a seamless user experience.',
     tags: ['WordPressDevelopment', 'E-Commerce','PHP'],
-    imageUrl: avellina
+    imageUrl: avellina,
+    href:'https://github.com/youssefsaki/'
   },
   {
     title: "Inoxi E-Com",
     description:
-      "I served as a full-stack developer on an e-commerce app for 1.5 months. I facilitated seamless user experiences, enabling browsing, cart management, and secure transactions.",
+      "I served as a full-stack developer on an e-commerce app for 4 months. I facilitated seamless user experiences, enabling browsing, cart management, and secure transactions.",
     tags: ["Javascript", "PHP", "Bootstrap", "MYSQL"],
     imageUrl: ecomWebApp,
+    href:'https://github.com/youssefsaki/Ecom-WebApp'
   },
   {
     title: "Portfolio",
@@ -82,6 +84,7 @@ export const projectsData = [
       "I crafted my portfolio website, showcasing my skills and projects with a focus on user engagement and visual appeal.",
     tags: ["React", "TypeScript", "Next.js", "Tailwind"],
     imageUrl: portfolio,
+    href:'https://github.com/youssefsaki/my-portfolio'
   },
   {
     title: "VANS Work",
@@ -89,6 +92,7 @@ export const projectsData = [
       "The VANS landing page demonstrates Tailwind CSS utility-first framework for creating modern, responsive UIs with ease.",
     tags: ["React", "Tailwind", "Framer"],
     imageUrl: vansProjectPic,
+    href:'https://github.com/youssefsaki/Vans'
   },
 ] as const;
 
