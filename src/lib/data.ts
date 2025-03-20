@@ -50,7 +50,7 @@ export const experiencesData = [
     title: "Freelance Web Developer",
     location: "",
     description:
-      "Worked independently as a web developer, collaborating with clients to create custom websites and web applications. Demonstrated versatility and adaptability in delivering tailored solutions to meet client needs.",
+      "Worked on various web development projects with clients in my professional network.",
     icon: React.createElement(CgWorkAlt),
     date: "2022 - Present",
   },
