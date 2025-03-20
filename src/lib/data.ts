@@ -2,6 +2,8 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
+import { FaLaptopCode } from "react-icons/fa";
+import { TbBrandAngular } from "react-icons/tb";
 import ecomWebApp from '/public/ecomInoxi.png';
 import vansProjectPic from '/public/Vans.png';
 import portfolio from '/public/my-portfolio.png';
@@ -41,24 +43,40 @@ export const experiencesData = [
     location: "",
     description:
       "Completed an intensive web development program, gaining expertise in front-end and back-end technologies. Applied newly acquired skills to freelance projects, delivering high-quality solutions to clients.",
-    icon: React.createElement(LuGraduationCap), //? Writing icon like this cause we are using .ts not .tsx
-    date: "2021-2023",
+    icon: React.createElement(LuGraduationCap),
+    date: "2021 - 2023",
   },
   {
     title: "Freelance Web Developer",
     location: "",
     description:
-      "Worked independently as a web developer, collaborating with clients to create custom websites and web applications. Demonstrated versatility and adaptability in delivering tailored solutions to meet client needs",
+      "Worked independently as a web developer, collaborating with clients to create custom websites and web applications. Demonstrated versatility and adaptability in delivering tailored solutions to meet client needs.",
     icon: React.createElement(CgWorkAlt),
-    date: "2022 - 2023",
+    date: "2022 - Present",
   },
   {
-    title: "Web Development Instructor",
-    location: "",
+    title: "Remote Web Development Instructor",
+    location: "GoMyCode (Remote)",
     description:
-      "Currently serving as a web development instructor, imparting knowledge and skills to aspiring developers. Facilitate learning through engaging lectures, hands-on exercises, and personalized feedback, nurturing the next generation of web developers.",
+      "Conducted online courses in MERN stack & Next.js, mentoring students through hands-on projects, live coding sessions, and personalized guidance to prepare them for the industry.",
     icon: React.createElement(FaReact),
-    date: "2023 - present",
+    date: "2023 - 2024",
+  },
+  {
+    title: "Brand Co-Founder & Marketing Lead",
+    location: "Avellina (Morocco)",
+    description:
+      "Co-created a brand, handling marketing strategy, email marketing, and web application development. Managed website creation, digital campaigns, and customer engagement to grow the brand.",
+    icon: React.createElement(TbBrandAngular),
+    date: "2023 - Present",
+  },
+  {
+    title: "Full-Time Web Development Instructor",
+    location: "GoMyCode (Morocco)",
+    description:
+      "Currently working full-time at GoMyCode, teaching MERN stack, React, and Next.js. Leading in-person and remote sessions, structuring curriculum, and mentoring aspiring developers.",
+    icon: React.createElement(FaLaptopCode),
+    date: "2024 - Present",
   },
 ] as const;
 

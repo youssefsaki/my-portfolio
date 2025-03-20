@@ -25,7 +25,7 @@ export default function Experience() {
         >
             <SectionHeading>Experience</SectionHeading>
             <VerticalTimeline lineColor="">
-                {experiencesData.map( (experience, index) => (
+                {experiencesData.toReversed().map( (experience, index) => (
                     <React.Fragment key={index}>
                         <VerticalTimelineElement
                             contentStyle={{
@@ -45,8 +45,8 @@ export default function Experience() {
                             }}
                         >
                             <h3 className="font-semibold capitalize" >{experience.title}</h3>
-                            <p className="font-normal ">{experience.location}</p>
-                            <p className="text-gray-700 dark:text-white/75">{experience.description}</p>
+                            <span className="text-gray-500 font-sm mt-[16px]">{experience.location}</span>
+                            <p className="text-gray-700 dark:text-white/75 mt-[14px]">{experience.description}</p>
                         </VerticalTimelineElement>
                     </React.Fragment>
                 ))}
