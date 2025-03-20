@@ -68,7 +68,7 @@ export const experiencesData = [
     description:
       "Co-created a brand, handling marketing strategy, email marketing, and web application development. Managed website creation, digital campaigns, and customer engagement to grow the brand.",
     icon: React.createElement(TbBrandAngular),
-    date: "2023 - Present",
+    date: "2023 - 2024",
   },
   {
     title: "Full-Time Web Development Instructor",

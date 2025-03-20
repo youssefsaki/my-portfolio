@@ -2,7 +2,7 @@
 
 import Image from 'next/image'
 import React, { useEffect } from 'react'
-import myPic from '@/assets/Ussef.jpeg';
+import myPic from '@/assets/ussef.png';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
 import { BsArrowRight, BsLinkedin } from 'react-icons/bs';
